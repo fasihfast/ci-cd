@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("/api/v1")
 public class Controller {
 
-    @GetMapping("/")
+    @GetMapping("/intro")
     public String begin() {
         return "Hello today I am learning CI/CD pipeline";
     }
